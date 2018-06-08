@@ -1,6 +1,6 @@
 # Code to download & unzip the file
-# download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", "epc.zip")
-# unzip("epc.zip")
+download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", "epc.zip")
+unzip("epc.zip")
 
 # Read only the header of the file
 epc_header <- read.csv("household_power_consumption.txt", 
